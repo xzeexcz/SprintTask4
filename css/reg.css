@@ -1,0 +1,102 @@
+body{
+    margin: 0%;
+}
+.menu{
+    margin-top: 0;
+    height: 4%;
+    background-color: rgb(48, 160, 160);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.space{
+    width: 55%;
+}
+.logo h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.list{
+    width: 20%;
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-around;
+}
+.list button{
+    border: none;
+    background-color: rgb(48, 160, 160);
+    margin-top: 2px;
+}
+.list a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+    color: lightgray;
+}
+.list a:hover{
+    color: white;
+}
+.regform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+}
+#reg{
+    margin-top: 3%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#reg input{
+    height: 30px;
+    border: 1px solid lightgray;
+}
+#reg select{
+    height: 25px;
+    
+}
+#reg label{
+    margin-top: 10%;
+}
+#reg #register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 26%;
+    height: 35px;
+    background-color: darkblue;
+    border: 1px solid darkgray;
+    color: white;
+    width: 40%;
+    font-size: 17px;
+}
+#reg #passwordMes{
+    font-size: 10px;
+    color: brown;
+}
+#reg #register:hover{
+    color: black;
+    background-color: white;
+    transition: 10%;
+}
+#emailMes{
+    font-size: 10px;
+    color: red;
+}
+#finish{
+    font-size: 10px;
+    color: red;
+    margin-top: 10px;
+    margin-left: 100px;
+}
