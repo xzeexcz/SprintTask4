@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign</title>
+    <link rel="stylesheet" href="../css/sign.css" />
+  </head>
+  <body>
+    <nav class="menu">
+      <div class="logo">
+        <h2>TWITTER</h2>
+      </div>
+      <div class="space"></div>
+      <div class="list">
+        <a href="../html/profile.html">Profile</a>
+        <a href="../html/sign.html">Login</a>
+        <a href="../html/reg.html">Register</a>
+      </div>
+    </nav>
+    <div class="signform">
+      <form id="sign">
+        <label for="Email">EMAIL:</label>
+        <input type="email" placeholder="Write your email" id="email" />
+        <span id="errorPass"></span>
+        <label for="Password">PASSWORD:</label>
+        <input
+          type="password"
+          placeholder="Write your password"
+          id="password"
+        />
+        <span id="error"></span>
+        <button type="submit" id="login">SIGN IN</button>
+      </form>
+    </div>
+    <script src="../js/sign.js"></script>
+  </body>
+</html>

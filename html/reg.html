@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+    <link rel="stylesheet" href="../css/reg.css" />
+  </head>
+
+  <body>
+    <nav class="menu">
+      <div class="logo">
+        <h2>TWITTER</h2>
+      </div>
+      <div class="space"></div>
+      <div class="list">
+        <button type="button">
+          <a href="../html/profile.html" id="prof">Profile</a>
+        </button>
+        <a href="../html/sign.html">Login</a>
+        <a href="#">Register</a>
+      </div>
+    </nav>
+    <div class="regform">
+      <form id="reg">
+        <label for="Email">EMAIL:</label>
+        <input type="email" placeholder="Write your email" id="email" />
+        <span id="emailMes"></span>
+        <label for="Password">PASSWORD:</label>
+        <input
+          type="password"
+          placeholder="Write your password"
+          id="password"
+        />
+        <span id="passwordMes"></span>
+        <label for="FullName">FULL NAME:</label>
+        <input type="text" placeholder="Write youe full name" id="fullname" />
+        <label for="Country">COUNTRY:</label>
+        <select name="Country" id="country">
+          <option value="KAZAKHSTAN" id="KZ">KAZAKHSTAN</option>
+          <option value="USA" id="USA">USA</option>
+          <option value="UK" id="UK">UK</option>
+        </select>
+        <label for="Birthday">BIRTH DAY:</label>
+        <input type="date" id="birthday" />
+        <button type="submit" id="register">Register</button>
+        <span id="finish"></span>
+      </form>
+    </div>
+    <script src="../js/reg.js"></script>
+  </body>
+</html>
